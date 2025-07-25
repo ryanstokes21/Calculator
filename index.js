@@ -25,3 +25,10 @@ function divide (num1, num2) {
 }
 
 console.log(divide(10,2));
+
+function operate (num1, num2, op) {
+  if (op === '+') return add(num1, num2);
+  if (op === '-') return add(num1, num2);
+  if (op === '*') return add(num1, num2);
+  if (op === '/') return add(num1, num2);
+}
