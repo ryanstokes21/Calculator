@@ -1,23 +1,27 @@
+let oprand1 = 0;
+let oprand2 = 0;
+let operator = '';
+
 function add(num1, num2){
-  
+  return num1 + num2;
 }
 
-add();
+console.log(add(1, 1));
 
 function subtract (num1, num2) {
-
+  return num1 - num2
 }
 
-subtract();
+console.log(subtract(2, 1));
 
 function multiply (num1, num2) {
-  console.log(num1 * num2);
+  return num1 * num2;
 }
 
-multiply(2, 5);
+console.log(multiply(2, 5));
 
 function divide (num1, num2) {
-  
+  return num1 / num2
 }
 
-divide();
+console.log(divide(10,2));
